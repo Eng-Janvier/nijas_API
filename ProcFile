@@ -1,1 +1,1 @@
-web: gunicorn app:mysql_api
+web: gunicorn mysql_api.wsgi
