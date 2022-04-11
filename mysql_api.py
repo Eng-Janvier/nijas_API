@@ -31,7 +31,9 @@ def api_data():
 def dashboard():
     return render_template('Dashboard.html',temp=temp,hum=hum)
 
+
+
+
 if __name__ == '__main__':
     App.run(debug = True,host = '0.0.0.0')
     
-
