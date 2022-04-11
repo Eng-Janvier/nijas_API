@@ -1,1 +1,1 @@
-web: gunicorn wsgi:mysql_api
+web: gunicorn wsgi:NIJAS_API
